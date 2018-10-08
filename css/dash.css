@@ -1,0 +1,337 @@
+/* Rubik Fonts */
+@font-face {font-family: Rubik; src: url('fonts/Rubik and Karla/Rubik/Rubik-Regular.ttf');}
+@font-face {font-family: Rubik; font-weight: bold; src: url('fonts/Rubik and Karla/Rubik/Rubik-Bold.ttf');}
+@font-face {font-family: Rubik; font-style: italic; src: url('fonts/Rubik and Karla/Rubik/Rubik-Italic.ttf');}
+
+/* Karla Fonts */
+@font-face {font-family: Rubik; src: url('fonts/Rubik and Karla/Karla/Karla-Regular.ttf');}
+@font-face {font-family: Rubik; font-weight: bold; src: url('fonts/Rubik and Karla/Karla/Karla-Bold.ttf');}
+@font-face {font-family: Rubik; font-style: italic; src: url('fonts/Rubik and Karla/Karla/Karla-Italic.ttf');}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Rubik;
+}
+
+p {
+  font-family: Karla;
+}
+
+body, a, div {
+  font-family: Karla;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.dash-header {
+  height: 45px;
+  color: black;
+  border-bottom: 1px solid lightgrey;
+  padding: .2em;
+}
+
+.dash-content {
+  font-size: 19px;
+  padding: 10px;
+  margin-left: 1.1em;
+}
+
+
+.list-group-item {
+  border-radius: 0px;
+}
+
+.list-group a {
+  background-color: #605749;
+  color: white;
+}
+.list-group a:hover {
+  background-color: #494238;
+  border-color: #494238;
+  border-left: 5px solid lawngreen;
+  color: white;
+  transition: 0.3s;
+}
+
+ #nav-tabContent {
+   padding: 2em;
+   margin-left: 1.1em;
+ }
+
+ .display {
+   height: 350px;
+   margin-right: 0.5em;
+   margin-bottom: 0.5em;
+ }
+
+ .display-1, .display-2, .display-3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ }
+
+.display-1 {
+  background-image: url('../img/premium-room.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.display-2 {
+  background-image: url('../img/standard-room.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.display-3 {
+  background-image: url('../img/studio-room.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-text {
+  margin-top: 50%;
+  margin-bottom; 2px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.overlay-paragraph {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.overlay-2 a:hover {
+  text-decoration: none;
+}
+
+.overlay-3 a:hover {
+  text-decoration: none;
+}
+
+.overlay-1 a:hover {
+  text-decoration: none;
+}
+
+.overlay-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 177, 52, 0.6);
+  transition: all 1s ease-out;
+  color: white;
+}
+
+.overlay-1:hover {
+  background-color: transparent;
+  transition: all 1s ease-out;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.overlay-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 173, 187, 0.7);
+  transition: all 1s ease-out;
+  color: white;
+}
+
+.overlay-2:hover {
+  background-color: transparent;
+  transition: all 1s ease-out;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.overlay-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(198, 231, 90, 0.7);
+  transition: all 1s ease-out;
+  color: white;
+}
+
+.overlay-3:hover {
+  background-color: transparent;
+  transition: all 1s ease-out;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/*ROOMS STYLING */
+.form-container {
+  padding: 1.1em;
+}
+
+.form-container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-4 {
+  margin-bottom: 2em;
+}
+
+
+/* CheckOut Page */
+#checkoutPage {
+  height: 100vh;
+}
+
+#checkoutPage .container {
+  padding: 4em;
+}
+
+#checkoutPage .dash-content {
+  font-size: 20px;
+  text-align: center;
+}
+
+#checkoutPage .dash-header {
+  height: 50px;
+  background-color: #323426;
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+#checkoutPage .checkout-details{
+  padding: 1.5em;
+  height: 80%;
+  border-radius: 15px;
+  box-shadow: 5px 10px 25px #888888;
+}
+
+#checkoutPage .row {
+  display: flex;
+  justify-content: center;
+}
+
+#checkoutPage input {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+#checkoutPage .custom-checkbox{
+  margin-bottom: 15px;
+}
+
+#checkoutPage input {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+
+.center form div {
+  position: relative;
+}
+
+.center form div .floaters {
+  position: absolute;
+  top: 10px;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+#checkoutPage input:focus ~ .floaters,
+#checkoutPage textarea:focus ~ .floaters,
+#checkoutPage input:valid ~ .floaters{
+  top: -10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#checkoutPage input:focus,
+#checkoutPage textarea:focus,
+#checkoutPage input:valid,
+#checkoutPage textarea:valid{
+  border-bottom: 3px solid black;
+  transition: 0.5s;
+}
+
+/* Hidden Navigation */
+.open-slide {
+   padding: 1em;
+}
+
+.side-nav{
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(96, 87, 73, 0.9);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+
+}
+
+.side-nav a{
+  text-align: center;
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s
+}
+
+.side-nav a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.side-nav .btn-close:hover {
+  color: white;
+}
+
+.side-nav .btn-close{
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+
+@media (max-width: 767.97px) {
+  .btn-success {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Hidden Navigation */
+@media(max-width: 767.97px){
+ #list-tab{
+        display:none;
+      }
+ #dash-name{
+   margin-left: -50%;
+ }
+}
+@media(min-width:991px){
+  .open-slide{
+    display: none;
+  }
+}
