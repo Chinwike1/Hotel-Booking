@@ -9,7 +9,7 @@
 @font-face {font-family: Rubik; font-style: italic; src: url('fonts/Rubik and Karla/Karla/Karla-Italic.ttf');}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Rubik;
+  font-family: Rubik; 
 }
 
 p {
